@@ -1,6 +1,6 @@
 ﻿namespace ACA_GMW_2024
 {
-    partial class Form1
+    partial class InverseGameOfLife
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,6 +30,7 @@
         {
             splitContainer = new SplitContainer();
             ResultField = new PictureBox();
+            findPatterns = new Button();
             FP_Button = new Button();
             StepsBackward_Count = new NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)splitContainer).BeginInit();
@@ -55,6 +56,7 @@
             // 
             // splitContainer.Panel2
             // 
+            splitContainer.Panel2.Controls.Add(findPatterns);
             splitContainer.Panel2.Controls.Add(FP_Button);
             splitContainer.Panel2.Controls.Add(StepsBackward_Count);
             splitContainer.Panel2.RightToLeft = RightToLeft.No;
@@ -70,6 +72,18 @@
             ResultField.Size = new Size(963, 414);
             ResultField.TabIndex = 0;
             ResultField.TabStop = false;
+            ResultField.MouseDown += ResultField_MouseDown;
+            // 
+            // findPatterns
+            // 
+            findPatterns.Anchor = AnchorStyles.Bottom;
+            findPatterns.Location = new Point(684, 57);
+            findPatterns.Name = "findPatterns";
+            findPatterns.Size = new Size(130, 23);
+            findPatterns.TabIndex = 2;
+            findPatterns.Text = "Find patterns";
+            findPatterns.UseVisualStyleBackColor = true;
+            findPatterns.Click += FindPatterns_Click;
             // 
             // FP_Button
             // 
@@ -85,19 +99,22 @@
             // 
             StepsBackward_Count.Anchor = AnchorStyles.Bottom;
             StepsBackward_Count.Location = new Point(203, 57);
+            StepsBackward_Count.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             StepsBackward_Count.Name = "StepsBackward_Count";
             StepsBackward_Count.Size = new Size(120, 23);
             StepsBackward_Count.TabIndex = 0;
+            StepsBackward_Count.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            StepsBackward_Count.ValueChanged += StepsBackward_Count_ValueChanged;
             // 
-            // Form1
+            // InverseGameOfLife
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(967, 530);
             Controls.Add(splitContainer);
-            Name = "Form1";
+            Name = "InverseGameOfLife";
             Text = "Constructive algorythm";
-            SizeChanged += Form1_SizeChanged;
+            SizeChanged += IGoL_Window_SizeChanged;
             splitContainer.Panel1.ResumeLayout(false);
             splitContainer.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)splitContainer).EndInit();
@@ -113,5 +130,6 @@
         private Button FP_Button;
         private NumericUpDown StepsBackward_Count;
         private PictureBox ResultField;
+        private Button findPatterns;
     }
 }

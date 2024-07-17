@@ -3,7 +3,6 @@ G:\GMW_ConstructiveAlgorithm\ACA_GMW_2024\bin\Debug\net6.0-windows\ACA_GMW_2024.
 G:\GMW_ConstructiveAlgorithm\ACA_GMW_2024\bin\Debug\net6.0-windows\ACA_GMW_2024.runtimeconfig.json
 G:\GMW_ConstructiveAlgorithm\ACA_GMW_2024\bin\Debug\net6.0-windows\ACA_GMW_2024.dll
 G:\GMW_ConstructiveAlgorithm\ACA_GMW_2024\bin\Debug\net6.0-windows\ACA_GMW_2024.pdb
-G:\GMW_ConstructiveAlgorithm\ACA_GMW_2024\obj\Debug\net6.0-windows\ACA_GMW_2024.Form1.resources
 G:\GMW_ConstructiveAlgorithm\ACA_GMW_2024\obj\Debug\net6.0-windows\ACA_GMW_2024.csproj.GenerateResource.cache
 G:\GMW_ConstructiveAlgorithm\ACA_GMW_2024\obj\Debug\net6.0-windows\ACA_GMW_2024.GeneratedMSBuildEditorConfig.editorconfig
 G:\GMW_ConstructiveAlgorithm\ACA_GMW_2024\obj\Debug\net6.0-windows\ACA_GMW_2024.AssemblyInfoInputs.cache
@@ -15,3 +14,4 @@ G:\GMW_ConstructiveAlgorithm\ACA_GMW_2024\obj\Debug\net6.0-windows\refint\ACA_GM
 G:\GMW_ConstructiveAlgorithm\ACA_GMW_2024\obj\Debug\net6.0-windows\ACA_GMW_2024.pdb
 G:\GMW_ConstructiveAlgorithm\ACA_GMW_2024\obj\Debug\net6.0-windows\ACA_GMW_2024.genruntimeconfig.cache
 G:\GMW_ConstructiveAlgorithm\ACA_GMW_2024\obj\Debug\net6.0-windows\ref\ACA_GMW_2024.dll
+G:\GMW_ConstructiveAlgorithm\ACA_GMW_2024\obj\Debug\net6.0-windows\ACA_GMW_2024.InverseGameOfLife.resources

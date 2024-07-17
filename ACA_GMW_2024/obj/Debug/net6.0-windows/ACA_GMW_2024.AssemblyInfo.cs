@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ACA_GMW_2024")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+641fc9f2b3ca858d46b99a39dc8dfc7fdf30374b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef163d36e6a49e5169f06067ebf090048d8e2756")]
 [assembly: System.Reflection.AssemblyProductAttribute("ACA_GMW_2024")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ACA_GMW_2024")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
