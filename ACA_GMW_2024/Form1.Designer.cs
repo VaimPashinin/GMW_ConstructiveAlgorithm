@@ -30,7 +30,6 @@
         {
             splitContainer = new SplitContainer();
             ResultField = new PictureBox();
-            findPatterns = new Button();
             FP_Button = new Button();
             StepsBackward_Count = new NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)splitContainer).BeginInit();
@@ -45,6 +44,7 @@
             // 
             splitContainer.BorderStyle = BorderStyle.Fixed3D;
             splitContainer.Dock = DockStyle.Fill;
+            splitContainer.IsSplitterFixed = true;
             splitContainer.Location = new Point(0, 0);
             splitContainer.Name = "splitContainer";
             splitContainer.Orientation = Orientation.Horizontal;
@@ -56,7 +56,6 @@
             // 
             // splitContainer.Panel2
             // 
-            splitContainer.Panel2.Controls.Add(findPatterns);
             splitContainer.Panel2.Controls.Add(FP_Button);
             splitContainer.Panel2.Controls.Add(StepsBackward_Count);
             splitContainer.Panel2.RightToLeft = RightToLeft.No;
@@ -74,17 +73,6 @@
             ResultField.TabStop = false;
             ResultField.MouseDown += ResultField_MouseDown;
             // 
-            // findPatterns
-            // 
-            findPatterns.Anchor = AnchorStyles.Bottom;
-            findPatterns.Location = new Point(684, 57);
-            findPatterns.Name = "findPatterns";
-            findPatterns.Size = new Size(130, 23);
-            findPatterns.TabIndex = 2;
-            findPatterns.Text = "Find patterns";
-            findPatterns.UseVisualStyleBackColor = true;
-            findPatterns.Click += FindPatterns_Click;
-            // 
             // FP_Button
             // 
             FP_Button.Anchor = AnchorStyles.Bottom;
@@ -94,6 +82,7 @@
             FP_Button.TabIndex = 1;
             FP_Button.Text = "Find precessors";
             FP_Button.UseVisualStyleBackColor = true;
+            FP_Button.Click += FP_Button_Click;
             // 
             // StepsBackward_Count
             // 
@@ -130,6 +119,5 @@
         private Button FP_Button;
         private NumericUpDown StepsBackward_Count;
         private PictureBox ResultField;
-        private Button findPatterns;
     }
 }
